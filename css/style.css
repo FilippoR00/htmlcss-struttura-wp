@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 190px;
+    margin-top: 30px;
+}
+
+.jumbotron{
+    height: 650px;
+    margin-top: 40px;
+}
+
+.section-title{
+    height: 100px;
+    margin-top: 40px;
+}
+
+
+
+
 
 /* ***** DEBUG ***** */
+
+.debug header{
+    background-color: violet;
+}
+
+.debug .jumbotron{
+    background-color: khaki;
+}
+
+.debug .box{
+    background-color: dodgerblue;
+}
+
+.debug .row{
+    background-color: lightblue;
+}
+
 
