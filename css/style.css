@@ -44,7 +44,9 @@ header{
     margin-bottom: 10px;
 }
 
-
+footer{
+    margin-bottom: 50px;
+}
 
 
 
@@ -80,7 +82,9 @@ header{
     height: 450px;
 }
 
-.debug .footer{
+.debug footer{
+    background-color: darkviolet;
+    height: 80px;
 }
 
 
