@@ -10,18 +10,38 @@
 }
 
 header{
-    height: 190px;
     margin-top: 30px;
 }
 
 .jumbotron{
-    height: 650px;
     margin-top: 40px;
 }
 
 .section-title{
-    height: 100px;
     margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.side{
+    float: left;
+    width: 20%;
+}
+
+.center{
+    float: left;
+    margin: 0px 1.5%;
+    width: 57%;
+}
+
+.box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -32,18 +52,36 @@ header{
 
 .debug header{
     background-color: violet;
+    height: 190px;
 }
 
 .debug .jumbotron{
     background-color: khaki;
+    height: 650px;
+}
+
+.debug .row, .debug .image, .debug .text {
+    background-color: lightblue;
 }
 
 .debug .box{
     background-color: dodgerblue;
 }
 
-.debug .row{
-    background-color: lightblue;
+.debug .section-title{
+    height: 100px;
 }
+
+.debug .image{
+    height: 200px;
+}
+
+.debug .text{
+    height: 450px;
+}
+
+.debug .footer{
+}
+
 
 
